@@ -19,7 +19,7 @@ const csvToJSON = () => {
     return jsonObj;
   };
 
-  // Convert all users in users array to single JSON object
+  // Convert all users in users array to JSON
   const jsonifyEverybody = (usersArray, cb) => {
     let result = [];
 
