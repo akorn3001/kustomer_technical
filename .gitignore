@@ -1,2 +1,3 @@
-api_token.txt
+api_token.js
 .DS_Store
+node_modules
