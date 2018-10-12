@@ -33,7 +33,7 @@ const jsonifyEverybody = (usersArray, cb) => {
 // Create JSON object of all the users
 let JSONUsers = jsonifyEverybody(data, jsonifyUser);
 
-// Write to file with JSON data
+// COMMENT IN THE CODE BELOW TO WRITE TO FILE WITH JSON DATA
 // fs.writeFile("./data.json", JSON.stringify(JSONUsers, null, 3), (err) => {
 //   if (err) {
 //     console.error(err);
