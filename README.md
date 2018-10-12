@@ -11,10 +11,10 @@ To see the project in action repeat the following steps:
 5. Run `node script.js`
 
 ## API Key
-Logging in to Kustomer I generated an API Key for the project. I copied its value into a `api_token.txt` file. If you are running this project from your machine, you should have received the `api_token.txt` file from me (refer to step 3 from the instructions above).
+Logging in to Kustomer I generated an API Key for the project. I copied its value into an `api_token.txt` file. If you are running this project from your machine, you should have received the `api_token.txt` file from me (refer to step 3 from the instructions above).
 
 ## csv to JSON
 For this assignment, I downloaded customers data from a Google spreadsheet to a .csv file and saved the file (`data.csv`) to the root of this project. From there, I wrote a script (`csv_to_json.js`) to convert the .csv file to JSON so it could be processed.
 
 ## script.js
-This file is where the magic happens. Importing the customers' JSON data at the top of the file and iterating through the customers' data, I use Fetch to send `POST` requests to the Kustomer API.
+Importing the API Key and the customers' JSON data at the top of this file and iterating through the customers' data, I use Fetch to send `POST` requests to the Kustomer API. If the requests are successful, you should see success messages in the console. Likewise, you should see error messages if they are unsuccessful.
