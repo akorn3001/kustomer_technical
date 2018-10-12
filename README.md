@@ -1,5 +1,4 @@
-# Kustomer Technical Challenege
-### Alex Kornfeld
+# Kustomer Technical Challenege - Alex Kornfeld
 
 This project is written entirely in JavaScript. I use a `package.json` file for installed npm packages (`isomorphic-fetch` and `es6-promise` for making HTTP requests using the Fetch API).
 
