@@ -2,6 +2,9 @@
 
 This project is written entirely in JavaScript. I use a `package.json` file for installed npm packages (`isomorphic-fetch` and `es6-promise` for making HTTP requests using the Fetch API).
 
+## Requirements
+In order to run this assessment, it is required that `node` and `npm` be installed on your machine. If they are not already on your machine, [check out this article](https://blog.teamtreehouse.com/install-node-js-npm-mac) which will instruct you on how to install them.
+
 ## Instructions
 To see the project in action repeat the following steps:
 1. Clone this repo to your machine
